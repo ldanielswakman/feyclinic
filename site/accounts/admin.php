@@ -8,5 +8,8 @@ language: en
 role: admin
 token: 98021de295dc861ccccb0b98249b19e338772188
 history:
+  - contact
+  - projects-tmp
+  - info
   - home
   - null
