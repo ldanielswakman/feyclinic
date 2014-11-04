@@ -5,7 +5,7 @@
     </div>
 
     <div class="colophon">
-      <a href="http://getkirby.com/made-with-kirby-and-love">Made with Kirby and <b>♥</b></a>
+      This site was designed and built by <a href="http://www.ldaniel.eu/" target="_blank">L Daniel Swakman</a>
     </div>
 
   </footer>
