@@ -14,4 +14,16 @@ Keywords: feyclinic,fey clinic,forever young,forever young clinic,medisch,cosmet
 
 ----
 
-Copyright: This site was designed and built by (link: http://www.ldaniel.eu/ text: L Daniel Swakman popup: yes)
+Colophon: (link: http://www.ldaniel.eu/ text: designed and built by L Daniel Swakman popup: yes)
+
+----
+
+Footerleft: **FEY Clinic**
+Schenge 4
+4335 XS Middelburg
+
+----
+
+Footerright: (link: http://www.facebook.com/feyclinic text: facebook.com/feyclinic popup: yes)
+06-21213666
+info@feyclinic.nl

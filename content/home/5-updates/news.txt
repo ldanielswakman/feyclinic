@@ -4,7 +4,7 @@ Title: Updates
 
 Items: - 
   title: Nieuwe website online
-  message: Feestelijkheid!
+  message:
   date: 2015-05-01
 - 
   title: >
