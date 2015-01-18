@@ -29,16 +29,26 @@
     else :
       echo css('assets/css/bootstrap.min.css');
       echo css('assets/css/ionicons.min.css');
-      echo js('assets/js/jquery-1.11.1.min.css');
-      echo js('assets/js/fastclick.min.css');
+      echo js('assets/js/jquery-1.11.1.min.js');
+      echo js('assets/js/fastclick.min.js');
+      echo js('assets/js/jquery.smooth-scroll.min.js');
     endif;
   ?>
 
   <?php echo css('assets/css/style.css') ?>
+  <?php echo js('assets/js/scripts.js') ?>
+
 
 </head>
-<body>
+<body class="<?php echo $page->slug() ?>">
 
   <header>
     <?php snippet('menu') ?>
+
+    <div id="logo">
+      <a href="<?php echo ($page->slug() == 'home') ? '#top' : $site->url(); ?>">
+        <img src="<?php echo url('assets/images/stamp.svg') ?>" width="120" title="<?php echo $site->title()->html() ?>" alt="<?php echo $site->title()->html() ?>" />
+      </a>
+    </div>
+
   </header>
