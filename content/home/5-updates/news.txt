@@ -1,0 +1,14 @@
+Title: Updates
+
+----
+
+Items: - 
+  title: Nieuwe website online
+  message: Feestelijkheid!
+  date: 2015-05-01
+- 
+  title: >
+    Informatie-avond vrijdagavond 28
+    november
+  message: 'Locatie: nog onbekend. Tijd: n.t.b.'
+  date: 2014-11-28

@@ -6,10 +6,9 @@ password: >
   $2a$10$uopEsMCcceF2WDGq546BRu6ESq8qJStR9x9QWPz5YraTECO4jZ21G
 language: en
 role: admin
-token: 98021de295dc861ccccb0b98249b19e338772188
+token: 9d70801fb67334d9dd5bbfad9ed76b08a1ad28ab
 history:
-  - contact
-  - projects-tmp
-  - info
-  - home
-  - null
+  - home/updates
+  - home/contact
+  - contactformulier
+  - home/slide-3

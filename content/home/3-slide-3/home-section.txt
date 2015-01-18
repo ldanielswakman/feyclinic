@@ -1,0 +1,15 @@
+Title: slide 3
+
+----
+
+Bgimage: background-3.jpg
+
+----
+
+Text: Veilige, professionele behandelingen gegeven door een cosmetisch arts.
+
+----
+
+Link: - 
+  link_page: filosofie
+  link_text: Meer info

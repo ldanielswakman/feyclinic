@@ -1,12 +1,14 @@
 <?php if(!defined('KIRBY')) exit ?>
 
 title: Home
-pages: false
+pages: true
+  template: home-section
+files: false
 fields:
-  title:
-    label: Title
-    type:  text
-  text:
-    label: Text
-    type:  textarea
-    size:  large
+	title:
+		label: Titel
+	info:
+		label:  Homepagina
+		type:  info
+		text: >
+			De inhoud van de homepagina kan gewijzigd worden door de subpagina's links te wijzigen

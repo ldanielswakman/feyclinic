@@ -1,0 +1,13 @@
+Title: slide 1
+
+----
+
+Bgimage: background-1.jpg
+
+----
+
+Text: Een mooier uiterlijk geeft zelfvertrouwen
+
+----
+
+Link: 

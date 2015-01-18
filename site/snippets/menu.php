@@ -9,7 +9,7 @@
       <ul class="submenu">
         <?php foreach($p->children()->visible() as $p): ?>
         <li>
-          <a href="<?php echo $p->url() ?>"><?php echo html($p->title()) ?></a>
+          <a href="<?php echo $p->url() ?>"><?php echo strtolower(html($p->title())) ?></a>
         </li>
         <?php endforeach ?>
       </ul>
