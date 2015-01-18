@@ -2,11 +2,12 @@
 
 title: Home
 pages: true
-  template: home-section
+	template: home-section
 files: false
 fields:
 	title:
 		label: Titel
+		readonly: readonly
 	info:
 		label:  Homepagina
 		type:  info

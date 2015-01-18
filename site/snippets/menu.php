@@ -1,22 +1,22 @@
-<nav role="navigation">
+<nav>
 
-  <ul class="menu cf">
-    <?php foreach($pages->visible() as $p): ?>
+  <ul id="menu-primary" class="menu">
+    <?php 
+    foreach($pages->visible() as $p): 
+    if ($p->slug() == 'separator') :
+    ?>
+    </ul>
+    <ul id="menu-secondary" class="menu">
+    <?php
+    else :
+    ?>
     <li>
-      <a <?php e($p->isOpen(), ' class="active"') ?> href="<?php echo $p->url() ?>"><?php echo html($p->title()) ?></a>
-
-      <?php if($p->hasVisibleChildren()): ?>
-      <ul class="submenu">
-        <?php foreach($p->children()->visible() as $p): ?>
-        <li>
-          <a href="<?php echo $p->url() ?>"><?php echo strtolower(html($p->title())) ?></a>
-        </li>
-        <?php endforeach ?>
-      </ul>
-      <?php endif ?>
-
+      <a <?php e($p->isOpen(), ' class="isActive"') ?> href="<?php echo $p->url() ?>"><?php echo strtolower(html($p->title())) ?></a>
     </li>
-    <?php endforeach ?>
+    <?php 
+    endif;
+    endforeach;
+    ?>
   </ul>
 
 </nav>

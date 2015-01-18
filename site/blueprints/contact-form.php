@@ -10,6 +10,7 @@ fields:
 			<i>Dit is geen 'echte' pagina, maar enkel bedoeld om het contactformulier te configureren. Houd deze pagina dan ook verborgen.</i>
 	title:
 		label: Contactformulier
+		readonly: readonly
 	items:
 		label: >
 			Velden

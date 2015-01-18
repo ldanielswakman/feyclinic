@@ -16,5 +16,5 @@ fields:
     label: Keywords
     type:  tags
   copyright:
-    label: Copyright
+    label: Footer info
     type:  textarea
