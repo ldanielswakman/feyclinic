@@ -148,6 +148,9 @@ img {
   background-color: #fff;
   z-index: 2;
 }
+main {
+  min-height: calc(100vh - 324px);
+}
 
 
 
@@ -205,6 +208,19 @@ img {
 
 
 
+/* --- forms --- */
+form label {
+  font-family: Tellural;
+  font-size: 1.25em;
+  margin-top: 0.25em;
+  margin-bottom: 0.5em;
+}
+form .form-control {
+
+}
+
+
+
 /* --- icons (extends ionicons) --- */
 .ion-after:before {
   float: right;
@@ -258,7 +274,7 @@ nav #menu-secondary {
   opacity: 0.5;
 }
 nav a.isActive {
-  border-bottom: 2px solid #505c72;
+  color: #b1967e; /* theme color gold dark */
 }
 
 
@@ -288,6 +304,35 @@ nav a.isActive {
 
 
 
+/* --- footer --- */
+footer {
+  background-color: #505c72; /* theme color */
+  color: rgba(255, 255, 255, 0.75);
+}
+footer p {
+  color: rgba(255, 255, 255, 0.5);
+}
+footer a {
+  color: rgba(255, 255, 255, 0.7);
+}
+footer a:hover,
+footer a:focus {
+  color: rgba(255, 255, 255, 1);
+}
+footer .colophon {
+  background-color: rgba(0, 0, 0, 0.2); 
+}
+footer .colophon a {
+  color: rgba(255, 255, 255, 0.3);
+}
+footer .colophon a:hover,
+footer .colophon a:focus {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+
+
+
 /* --- page-specific styling --- */
 body.home #contact {
   background-color: #dbb78c; /* theme color gold */
@@ -295,12 +340,17 @@ body.home #contact {
 body.home #contact h3 {
   color: #fff;
 }
+
 body.home #updates {
   background-color: #aeb3bc; /* theme color light */
 }
 body.home #updates .ion {
-  opacity: 0.3;
-}
-body.home #updates small {
   opacity: 0.5;
+}
+body.home #updates small,
+body.home #updates p {
+  margin-top: 0;
+  color: #505c72; /* theme color */
+  font-family: Tellural;
+  font-size: 1em;
 }

@@ -15,6 +15,13 @@ fields:
   keywords:
     label: Keywords
     type:  tags
-  copyright:
-    label: Footer info
+  footerleft:
+    label: Footer info (links)
     type:  textarea
+  footerright:
+    label: Footer info (rechts)
+    type:  textarea
+  colophon:
+    label: Colofon
+    type:  text
+    readonly: readonly

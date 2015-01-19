@@ -64,8 +64,6 @@
 
   <?php endforeach; ?>
 
-    <hr>
-
   </main>
 
 <?php snippet('footer') ?>
