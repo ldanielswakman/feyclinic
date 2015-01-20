@@ -8,8 +8,8 @@ language: en
 role: admin
 token: 9d70801fb67334d9dd5bbfad9ed76b08a1ad28ab
 history:
-  - filosofie
-  - null
-  - home/updates
-  - home
-  - contactformulier
+  - contact
+  - info
+  - middelen
+  - de-behandeling
+  - prijzen

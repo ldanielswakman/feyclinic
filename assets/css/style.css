@@ -149,7 +149,10 @@ img {
   z-index: 2;
 }
 main {
-  min-height: calc(100vh - 324px);
+  position: relative;
+  z-index: 2;
+  min-height: 100vh;
+  background-color: #fff;
 }
 
 
@@ -209,6 +212,9 @@ main {
 
 
 /* --- forms --- */
+textarea {
+  resize: none;
+}
 form label {
   font-family: Tellural;
   font-size: 1.25em;
@@ -216,7 +222,26 @@ form label {
   margin-bottom: 0.5em;
 }
 form .form-control {
-
+  display: inline-block;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  padding: 20px;
+  border: 2px solid #fff;
+  background: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+form .form-control:focus {
+  background-color: #fff;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  border-color: #fff;
 }
 
 
@@ -258,8 +283,7 @@ nav {
   transform: translateX(-50px);
   opacity: 0;
 }
-.isLoaded nav,
-.isLoaded #logo {
+.isLoaded nav {
   -webkit-transform: translateX(0);
   -moz-transform: translateX(0);
   transform: translateX(0);
@@ -276,27 +300,42 @@ nav #menu-secondary {
 nav a.isActive {
   color: #b1967e; /* theme color gold dark */
 }
+nav #navtoggle {
+  position: absolute;
+  left: 200px;
+  top: 0;
+  z-index: 11;
+  padding: 20px;
+  display: none;
+}
+nav #navtoggle .ion-android-close {
+  display: none;
+}
+nav.isExpanded #mask {
+  position: absolute;
+  top: 0;
+  left: 100%;
+  z-index: 10;
+  width: 0;
+  height: 100vh;
+  background-color: rgba(80, 92, 114, 0.2);
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  transition: all 1s ease;
+  opacity: 0;
+}
+nav.isExpanded #mask {
+  width: 100vw;
+  opacity: 1;
+}
+
 
 
 
 /* --- floating logo --- */
-#logo {
-  position: fixed;
-  top: 0;
-  right: 0;
-  z-index: 9;
-  /* appear animation */
-  -webkit-transition: all 1s ease;
-  -moz-transition: all 1s ease;
-  transition: all 1s ease;
-  -webkit-transform: translateX(50px);
-  -moz-transform: translateX(50px);
-  transform: translateX(50px);
-  opacity: 0;
-}
 #logo a {
   display: block;
-  padding: 20px;
+  padding-bottom: 20px;
 }
 #logo img {
   max-width: 80px;
@@ -309,6 +348,13 @@ footer {
   background-color: #505c72; /* theme color */
   color: rgba(255, 255, 255, 0.75);
 }
+footer.tuckedUnder {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  z-index: 0;
+}
 footer p {
   color: rgba(255, 255, 255, 0.5);
 }
@@ -320,13 +366,13 @@ footer a:focus {
   color: rgba(255, 255, 255, 1);
 }
 footer .colophon {
-  background-color: rgba(0, 0, 0, 0.2); 
-}
-footer .colophon a {
+  display: block;
+  background-color: rgba(0, 0, 0, 0.15); 
   color: rgba(255, 255, 255, 0.3);
 }
-footer .colophon a:hover,
-footer .colophon a:focus {
+footer .colophon:hover,
+footer .colophon:focus {
+  background-color: rgba(0, 0, 0, 0.25); 
   color: rgba(255, 255, 255, 0.5);
 }
 
@@ -353,4 +399,32 @@ body.home #updates p {
   color: #505c72; /* theme color */
   font-family: Tellural;
   font-size: 1em;
+}
+
+
+@media screen and (max-width: 767px) {
+  .u-sm-center {
+    text-align: center;
+  }
+  nav {
+    left: -200px;
+    width: 200px;
+    background-color: #fff;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  }
+  nav.isExpanded {
+    left: 0;
+  }
+  nav #navtoggle {
+    display: block;
+  }
+  nav.isExpanded #navtoggle .ion-android-close {
+    display: block;
+    color: #fff;
+  }
+  nav.isExpanded #navtoggle .ion-navicon {
+    display: none;
+  }
 }

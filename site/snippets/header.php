@@ -44,11 +44,4 @@
 
   <header>
     <?php snippet('menu') ?>
-
-    <div id="logo">
-      <a href="<?php echo ($page->slug() == 'home') ? '#top' : $site->url(); ?>">
-        <img src="<?php echo url('assets/images/logo_stamp.svg') ?>" width="120" title="<?php echo $site->title()->html() ?>" alt="<?php echo $site->title()->html() ?>" />
-      </a>
-    </div>
-
   </header>

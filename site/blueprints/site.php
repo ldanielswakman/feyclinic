@@ -21,7 +21,3 @@ fields:
   footerright:
     label: Footer info (rechts)
     type:  textarea
-  colophon:
-    label: Colofon
-    type:  text
-    readonly: readonly

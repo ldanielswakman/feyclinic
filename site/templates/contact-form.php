@@ -2,7 +2,7 @@
 if ($pages->find('contactformulier')) :
 ?>
 <div class="row u-mt20">
-	<div class="col-sm-6 col-sm-offset-3">
+	<div class="col-sm-8 col-sm-offset-2">
 		<form class="u-mt20">
 
 			<?php foreach(yaml($pages->find('contactformulier')->items()) as $field): ?>

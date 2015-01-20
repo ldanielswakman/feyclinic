@@ -3,3 +3,7 @@ Title: Prijzen
 ----
 
 Text: 
+
+----
+
+Icon: ios-cart-outline

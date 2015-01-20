@@ -13,8 +13,20 @@ $(document).ready(function() {
 	}, 1000);
 
 
+	// makes footer tucked under main
+	$('.footer-spacer').css('height', $('footer').outerHeight() );
+	$('footer').addClass('tuckedUnder');
+
+
 	// initiating smooth scroll plugin
 	$('a[href^="#"]').smoothScroll( { afterScroll: function() { location.hash = $(this).attr('href'); $(this).blur(); } });
+
+
+	// menu toggle
+	$('nav #navtoggle, nav #mask').bind(touchEvent, (function(e) {
+		$('nav').toggleClass('isExpanded');
+		e.preventDefault();
+	}));
 
 
 });

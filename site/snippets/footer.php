@@ -1,3 +1,5 @@
+  <div class="footer-spacer"></div>
+
   <footer>
 
   	<div class="row u-pv60">
@@ -12,13 +14,13 @@
   		</div>
   	</div>
 
-  	<section class="colophon">
+  	<a href="http://www.ldaniel.eu/" target="_blank" class="colophon">
 	  	<div class="row u-pv40">
 	  		<div class="col-xs-12 u-aligncenter">
-	  			<?php echo $site->colophon()->kirbytext() ?>
+	  			designed and built by L Daniel Swakman
 	  		</div>
 	  	</div>
-	  </section>
+	  </a>
 
   </footer>
 
