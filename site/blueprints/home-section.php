@@ -11,21 +11,10 @@ fields:
 	text:
 		label: Tekst
 		type: text
-	more:
-		label: >
-			Link naar pagina <i>(optioneel)</i>
-		type: structure
-		fields:
-			link_page:
-				type: select
-				options: pages
-			link_text:
-				type: text
-				default: Meer info
-				icon: font
 	link:
 		label: >
 			Link naar pagina <i>(optioneel)</i>
+		max: 1
 		type: structure
 		fields:
 			link_page:

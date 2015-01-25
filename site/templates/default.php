@@ -10,9 +10,9 @@
 		endforeach; 
 		?>
 
-  	<section class="slide" id="intro" style="background-image: url('<?php echo $intro_bg ?>');">
+  	<header class="slide" id="intro" style="background-image: url('<?php echo $intro_bg ?>');">
 
-	  	<div class="row u-pv80">
+	  	<div class="row u-pv80 u-sm-aligncenter">
 	  		<div class="col-sm-1 col-sm-offset-1">
 	  			<i class="ion ion-5x ion-<?php echo $page->icon() ?>"></i>
 	  		</div>
@@ -21,9 +21,9 @@
 		    </div>
 			</div>
 
-  	</section>
+  	</header>
 
-  	<section>
+  	<section class="content">
 
 	  	<div class="row u-pv60">
 		    <div class="col-sm-8 col-sm-offset-2">
@@ -32,6 +32,25 @@
 			</div>
 
 		</section>
+
+		<?php
+		if ($page->nextVisible()) :
+		// do not link to menu separator
+		$nextpage = ($page->nextVisible()->slug() != 'separator') ? $page->nextVisible() : $page->nextVisible()->nextVisible(); 
+		?>
+
+  	<a href="<?php echo $nextpage->url() ?>" class="next">
+
+	  	<div class="row u-pv80 u-aligncenter">
+		    <div class="col-sm-8 col-sm-offset-2">
+		    	<?php echo 'volgende:'; ?>
+		      <h3><?php echo $nextpage->title() ?></h3>
+		    </div>
+			</div>
+
+		</a>
+
+		<?php endif; ?>
 
   </main>
 

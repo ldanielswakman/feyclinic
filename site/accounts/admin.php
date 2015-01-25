@@ -6,10 +6,10 @@ password: >
   $2a$10$uopEsMCcceF2WDGq546BRu6ESq8qJStR9x9QWPz5YraTECO4jZ21G
 language: en
 role: admin
-token: 9d70801fb67334d9dd5bbfad9ed76b08a1ad28ab
+token: e647537a5117ceffa4f105fc69b8b1ccad561026
 history:
+  - rimpels
+  - filosofie
   - contact
   - info
   - middelen
-  - de-behandeling
-  - prijzen
