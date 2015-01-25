@@ -25,16 +25,13 @@ h1, h2, h3, h4, h5, h6 {
 h3 {
   line-height: 1.5em;
 }
-h4 {
-  font-family: Tellural;
-}
-p {
+p, main ul, main ol {
   font-family: Merriweather;
   font-size: 1.25em;
   line-height: 1.8em;
   color: #828b99;
 }
-h1 + p, h2 + p, h3 + p, h4 + p, p + p {
+h1 + p, h2 + p, h3 + p, h4 + p, p + p, ul + p, ol + p {
   margin-top: 1em;
 }
 a {
@@ -44,6 +41,9 @@ a:hover,
 a:focus {
   color: #112649; /* theme color dark */
   text-decoration: none;
+}
+p a, main ul a, main ol a {
+  font-weight: bold;
 }
 img {
   max-width: 100%;
@@ -424,6 +424,10 @@ body.home #contact h3 {
 
 body.home #updates {
   background-color: #aeb3bc; /* theme color light */
+}
+body.home #updates h4 {
+  margin-top: 0;
+  font-family: Tellural;
 }
 body.home #updates .ion {
   opacity: 0.5;

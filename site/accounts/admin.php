@@ -8,8 +8,8 @@ language: en
 role: admin
 token: e647537a5117ceffa4f105fc69b8b1ccad561026
 history:
+  - de-behandeling
   - rimpels
   - filosofie
   - contact
   - info
-  - middelen
