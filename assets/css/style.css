@@ -19,6 +19,7 @@ body, html {
   box-sizing: border-box;
 }
 h1, h2, h3, h4, h5, h6 {
+  margin-top: 1.5em;
   letter-spacing: 0.01em;
 }
 h3 {
@@ -46,6 +47,14 @@ a:focus {
 }
 img {
   max-width: 100%;
+}
+figure {
+  display: block;
+  text-align: center;
+}
+figure img {
+  width: auto;
+  margin: 20px auto;
 }
 
 
@@ -135,8 +144,7 @@ img {
 .slide {
   position: relative;
   color: #b1967e; /* theme color gold dark */
-  background-attachment: fixed;
-  background-position: center;
+  background-position: center top;
   background-size: cover;
 }
 .spacer {
@@ -151,7 +159,7 @@ img {
 main {
   position: relative;
   z-index: 2;
-  min-height: 100vh;
+  /*min-height: 100vh;*/
   background-color: #fff;
 }
 
@@ -272,7 +280,6 @@ nav {
   letter-spacing: -0.02em;
   font-weight: bold;
   font-size: 1.3em;
-  line-height: 2em;
   z-index: 10;
   /* appear animation */
   -webkit-transition: all 1s ease;
@@ -291,6 +298,10 @@ nav {
 }
 nav li {
   list-style: none;
+}
+nav a {
+  display: block;
+  padding: 10px 0;
 }
 nav #menu-secondary {
   position: absolute;
@@ -402,9 +413,36 @@ body.home #updates p {
 }
 
 
+
+
+/* --- default page --- */
+.content {
+  min-height: 50vh;
+}
+.next {
+  display: block;
+  background-color: #d1d6e0; /* theme color lighter */
+}
+.next:hover,
+.next:focus {
+  background-color: #aeb3bc;
+}
+.next h3 {
+  text-transform: lowercase;
+  font-family: Tellural;
+  margin-top: 0;
+}
+
+
 @media screen and (max-width: 767px) {
-  .u-sm-center {
+  .u-sm-aligncenter {
     text-align: center;
+  }
+  .u-sm-alignleft {
+    text-align: left;
+  }
+  .u-sm-hide {
+    display: none;
   }
   nav {
     left: -200px;

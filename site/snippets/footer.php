@@ -3,13 +3,13 @@
   <footer>
 
   	<div class="row u-pv60">
-  		<div class="col-sm-4 col-sm-offset-1">
+  		<div class="col-sm-4 col-sm-offset-1 u-pv10">
   			<?php echo $site->footerleft()->kirbytext() ?>
   		</div>
-  		<div class="col-sm-2">
+  		<div class="col-sm-2 u-sm-hide">
   			<img src="<?php echo url('assets/images/logo_white.svg') ?>" width="200" title="<?php echo $site->title()->html() ?>" alt="<?php echo $site->title()->html() ?>" />
   		</div>
-  		<div class="col-sm-4 u-alignright">
+  		<div class="col-sm-4 u-pv10 u-alignright u-sm-alignleft">
   			<?php echo $site->footerright()->kirbytext() ?>
   		</div>
   	</div>

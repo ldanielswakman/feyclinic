@@ -30,3 +30,24 @@ $(document).ready(function() {
 
 
 });
+
+
+// parallax functionality
+function scrollActions() {
+	scroll = $(window).scrollTop();
+	windowH = $(window).height();
+
+	$('.slide').each(function() {
+		var st = $(this).offset().top;
+		var po = $(this).attr('data-prlx-offset');
+		if (!$touch) {
+			prlx_offset = (po) ? po : 0 ;
+			$(this).css('background-position','center ' + ((scroll - st)/1.5 - prlx_offset) + 'px');
+		}
+	});
+}
+
+$(window).scroll(function() { scrollActions(); });
+$(window).resize(function() { scrollActions(); });
+$(document).bind("scrollstart", function() { scrollActions(); });
+$(document).bind("scrollstop", function() { scrollActions(); });
