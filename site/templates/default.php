@@ -23,7 +23,7 @@
 
   	</header>
 
-  	<section class="content">
+  	<section class="block content">
 
 	  	<div class="row u-pv60">
 		    <div class="col-sm-8 col-sm-offset-2">

@@ -16,10 +16,13 @@
 	</div>
 
 	<div class="block">
-		<div class="row u-pv40 u-aligncenter">
+		<div class="row u-pv20 u-aligncenter">
 			<div class="col-sm-7 col-sm-offset-4">
 				<h3 class="u-mb40"><?php echo $section->text() ?></h3>
 				<a href="#<?php echo $section->next()->slug(); ?>" class="btn btn-tertiary btn-lg ion-chevron-down ion-after">scroll</a>
+				<?php foreach (yaml($section->link()) as $link) : ?>
+				<a href="<?php echo $link['link_page']; ?>" class="btn btn-tertiary btn-lg ion-chevron-right ion-after u-ml10"> <?php echo $link['link_text']; ?></a>
+			<?php endforeach; ?>
 			</div>
 		</div>
 	</div>

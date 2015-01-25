@@ -24,3 +24,7 @@ fields:
 				type: text
 				default: Meer info
 				icon: font
+		entry: >
+			tekst: {{link_text}}<br />
+			linkt naar: 
+      <b>{{link_page}}</b>
