@@ -2,8 +2,8 @@
 
 	<?php foreach(yaml($section->items()) as $item): ?>
 	<div class="row u-pv20 update">
-		<div class="col-sm-1 col-md-offset-2 col-sm-offset-1">
-			<i class="ion ion-ios-compose-outline ion-2x"></i>
+		<div class="col-sm-1 col-sm-offset-2">
+			<i class="ion ion-ios-compose-outline ion-3x"></i>
 		</div>
 		<div class="col-sm-7 col-md-6">
 			<h4><?php echo $item['title'] ?></h4>

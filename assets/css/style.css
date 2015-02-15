@@ -1,6 +1,17 @@
 /* --- CSS Resets --- */
 html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,address,cite,code,del,dfn,em,img,ins,q,small,strong,sub,sup,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td{border:0;margin:0;padding:0}article,aside,figure,figure img,figcaption,hgroup,footer,header,nav,section,video,object{display:block}a img{border:0}figure{position:relative}figure img{width:100%}
 
+@font-face {
+  font-family: 'Tellural';
+  src: url('../fonts/tellural-bold-webfont.eot');
+  src: url('../fonts/tellural-bold-webfont.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/tellural-bold-webfont.woff') format('woff'),
+       url('../fonts/tellural-bold-webfont.ttf') format('truetype'),
+       url('../fonts/tellural-bold-webfont.svg#Tellural') format('svg');
+  font-weight: bold;
+  font-style: normal;
+}
+
 body, html {
   margin: 0;
   padding: 0;
@@ -374,6 +385,7 @@ nav.isExpanded #mask {
 }
 #logo img {
   max-width: 80px;
+  max-height: 80px;
 }
 
 
@@ -430,7 +442,8 @@ body.home #updates h4 {
   font-family: Tellural;
 }
 body.home #updates .ion {
-  opacity: 0.5;
+  /*opacity: 0.5;*/
+  color: #fff;
 }
 body.home #updates small,
 body.home #updates p {
