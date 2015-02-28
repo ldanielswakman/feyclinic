@@ -33,11 +33,16 @@
 
 		</section>
 
+		<?php 
+  	// contact page
+  	if ($page->slug() == 'contact'): 
+		?>
 		<section class="block u-pv40" id="contact">
 
 			<?php include('contact-form.php'); ?>
 
 		</section>
+		<?php endif ?>
 
 		<?php
 		if ($page->nextVisible()) :
