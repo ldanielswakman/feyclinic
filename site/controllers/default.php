@@ -45,7 +45,7 @@ return function($site, $pages, $page) {
       // try to send it and redirect to the
       // 'sent' status if it worked
       if($email->send()) {
-        go('/status:sent#contact');
+        go('/contact/status:sent#contact');
       // add the error to the alert list if it failed
       } else {
         $alert = array($email->error());

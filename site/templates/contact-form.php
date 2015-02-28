@@ -44,7 +44,7 @@ if ($pages->find('contactformulier')) :
       </div>
 
       <?php else : ?>
-
+        
       <div class="form-group">
         <label for="text">Hallo, ik wil graag meer weten over...</label>
         <textarea class="form-control" id="text" name="text" rows="5" value="" placeholder="Uw bericht of verzoek tot afspraak" required></textarea>
