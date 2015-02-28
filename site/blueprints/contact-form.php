@@ -32,5 +32,11 @@ fields:
 					text: Naam
 					email: Email
 		entry: >
-      <h3>{{label}}</h3>
-      <input placeholder="{{placeholder}}" type="{{type}}" style="margin: 5px 0; padding: 10px; width: 75%;" readonly="readonly"><br />
+			<h3>{{label}}</h3>
+			<input placeholder="{{placeholder}}" type="{{type}}" style="margin: 5px 0; padding: 10px; width: 75%;" readonly="readonly"><br />
+	message_success:
+		label: Bericht als formulier verzonden is
+		type:  text
+	message_alert:
+		label: Bericht als er iets misgaat met formulier
+		type:  text

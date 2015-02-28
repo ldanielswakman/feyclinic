@@ -18,7 +18,9 @@
 
 				<div class="row u-pv20">
 					<div class="col-sm-10 col-sm-offset-1 u-aligncenter">
-						<h3><?php echo $section->text() ?></h3>
+            <?php if(param('status') != 'sent'): ?>
+					  <h3><?php echo $section->text() ?></h3>
+            <?php endif; ?>
 					</div>
 				</div>
 

@@ -3,6 +3,16 @@ html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,addre
 
 @font-face {
   font-family: 'Tellural';
+  src: url('../fonts/tellural-webfont.eot');
+  src: url('../fonts/tellural-webfont.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/tellural-webfont.woff') format('woff'),
+       url('../fonts/tellural-webfont.ttf') format('truetype'),
+       url('../fonts/tellural-webfont.svg#Tellural') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Tellural';
   src: url('../fonts/tellural-bold-webfont.eot');
   src: url('../fonts/tellural-bold-webfont.eot?#iefix') format('embedded-opentype'),
        url('../fonts/tellural-bold-webfont.woff') format('woff'),
@@ -133,6 +143,15 @@ figure img {
 .u-pv80 { padding-top: 80px; padding-bottom: 80px; }
 .u-pv120 { padding-top: 120px; padding-bottom: 120px; }
 .u-pv160 { padding-top: 160px; padding-bottom: 160px; }
+
+.u-pa5 { padding: 5px; }
+.u-pa10 { padding: 10px; }
+.u-pa20 { padding: 20px; }
+.u-pa40 { padding: 40px; }
+.u-pa60 { padding: 60px; }
+.u-pa80 { padding: 80px; }
+.u-pa120 { padding: 120px; }
+.u-pa160 { padding: 160px; }
 
 .u-alignleft { text-align: left; }
 .u-aligncenter { text-align: center; }
@@ -286,6 +305,29 @@ form .form-control:focus {
   box-shadow: none;
   border-color: #fff;
 }
+form .message {
+  background-color: #505c72;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  color: rgba(255, 255, 255, 0.75);
+}
+form .message.success {
+  background-color: rgba(0, 0, 0, 0.25);
+}
+form .message p {
+  font-family: Tellural;
+  font-weight: normal;
+  color: inherit;
+}
+form .message.success p {
+  color: #fff;
+}
+form .message ul {
+  font-family: Tellural;
+  margin-left: 60px;
+  color: #fff;
+}
 
 
 
@@ -427,13 +469,12 @@ footer .colophon:focus {
 
 
 /* --- page-specific styling --- */
-body.home #contact {
+#contact {
   background-color: #dbb78c; /* theme color gold */
 }
 body.home #contact h3 {
   color: #fff;
 }
-
 body.home #updates {
   background-color: #aeb3bc; /* theme color light */
 }
@@ -451,6 +492,9 @@ body.home #updates p {
   color: #505c72; /* theme color */
   font-family: Tellural;
   font-size: 1em;
+}
+body.default #contact:after {
+  display: none;
 }
 
 

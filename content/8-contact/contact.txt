@@ -9,12 +9,6 @@ Text: ## Get in touch
 - (link: http://github.com/getkirby text: Kirby on Github)
 - <support@getkirby.com>
 
-## Follow us on Twitter
-
-- Follow Kirby on Twitter (twitter: @getkirby)
-- Follow Bastian on Twitter (twitter: @bastianallgeier)
-- Follow Sascha on Twitter (twitter: @sashtown)
-
 ----
 
 Icon: ios-email-outline

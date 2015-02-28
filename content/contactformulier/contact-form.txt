@@ -14,3 +14,11 @@ Items: -
   label: U kunt mij bereiken via ...
   placeholder: Uw e-mailadres
   type: email
+
+----
+
+Message-success: Bedankt voor uw bericht! We nemen spoedig contact met u op.
+
+----
+
+Message-alert: Het formulier kon niet verzonden worden.

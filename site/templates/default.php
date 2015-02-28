@@ -33,6 +33,12 @@
 
 		</section>
 
+		<section class="block u-pv40" id="contact">
+
+			<?php include('contact-form.php'); ?>
+
+		</section>
+
 		<?php
 		if ($page->nextVisible()) :
 		// do not link to menu separator
