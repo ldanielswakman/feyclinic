@@ -19,7 +19,7 @@ fields:
 			message:
 				label: >
 					Bericht <i>(optioneel)</i>
-				type: text
+				type: textarea
 				icon: font
 			date:
 				label: Datum
