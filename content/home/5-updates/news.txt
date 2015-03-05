@@ -5,10 +5,12 @@ Title: Updates
 Items: - 
   title: Nieuwe website online
   message:
-  date: 2015-05-01
+  date: 2015-03-09
 - 
   title: >
-    Informatie-avond vrijdagavond 28
-    november
-  message: 'Locatie: nog onbekend. Tijd: n.t.b.'
-  date: 2014-11-28
+    Informatieavond anti-aging, injectables
+    en Botox
+  message: |
+    Locatie: Simpelhuisstraat 14, Middelburg.  Met een hapje en een drankje!
+    (link: https://www.facebook.com/events/1507090762888233/ text: event op facebook target: blank)
+  date: 2014-12-12

@@ -8,8 +8,8 @@ language: en
 role: admin
 token: 2b920e4839440e3a2be5c9ba57d5497b44870e2a
 history:
+  - home/updates
   - contact
-  - contactformulier
-  - info
+  - botox-injectables
   - de-behandeling
   - rimpels

@@ -1,9 +1,0 @@
-Title: Middelen
-
-----
-
-Text: 
-
-----
-
-Icon: ios-color-wand-outline
