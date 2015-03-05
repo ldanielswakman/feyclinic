@@ -39,6 +39,8 @@
     <?php echo css('assets/css/style.css') ?>
     <?php echo js('assets/js/scripts.js') ?>
 
+    <link href="favicon.ico" type="image/x-icon" rel="icon" />
+    <link href="favicon.ico" type="image/x-icon" rel="shortcut icon" />
 
   </head>
   <body class="<?php echo $page->template() ?>">
