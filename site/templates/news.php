@@ -14,7 +14,12 @@
 		<div class="col-sm-7 col-md-8">
 			<h4><?php echo $item['title'] ?></h4>
 			<p><?php echo kirbytext($item['message']) ?></p>
-			<small><?php echo date('d-m-Y', strtotime($item['date'])) ?></small>
+			<small>
+				<?php 
+				setlocale(LC_TIME, "nl_NL");
+				echo strftime('%e %B %Y', strtotime($item['date'])) 
+				?>
+			</small>
 		</div>
 		<div class="col-sm-3">
 		</div>
