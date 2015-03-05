@@ -6,13 +6,6 @@ $(document).ready(function() {
 	if ($touch) { $('body').addClass('isTouch') }
 	var touchEvent = $touch ? 'touchstart' : 'click';
 
-
-	// adds isLoaded body class for pageload animations
-	setTimeout(function() {
-		$('body').addClass('isLoaded');
-	}, 1000);
-
-
 	// makes footer tucked under main
 	$('.footer-spacer').css('height', $('footer').outerHeight() );
 	$('footer').addClass('tuckedUnder');
