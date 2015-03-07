@@ -16,10 +16,10 @@
 		?>
   	<section class="slide u-pv80" id="<?php echo $section->slug() ?>">
 
-				<div class="row u-pv20">
+				<div class="row u-mb20">
 					<div class="col-sm-10 col-sm-offset-1 u-aligncenter">
             <?php if(param('status') != 'sent'): ?>
-					  <h3><?php echo $section->text() ?></h3>
+					  <h3 class="u-mt10"><?php echo $section->text() ?></h3>
             <?php endif; ?>
 					</div>
 				</div>

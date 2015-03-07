@@ -186,20 +186,21 @@ figure img {
 }
 .slide {
   position: relative;
-  color: #b1967e; /* theme color gold dark */
   background-position: center top;
   background-size: cover;
+  background-repeat: no-repeat;
+  color: #b1967e; /* theme color gold dark */
 }
 .spacer {
-  min-height: 70vh;
+  min-height: 65vh;
 }
 .block {
   position: relative;
-  min-height: 40vh;
+  min-height: 35vh;
   background-color: #fff;
   z-index: 2;
 }
-.block:before,
+/*.block:before,
 .block:after {
   content: "";
   position: absolute;
@@ -222,7 +223,7 @@ figure img {
   border-right: 50vw solid #fff;
   border-top: 2vw solid #fff;
   border-bottom: 2vw solid rgba(0, 0, 0, 0);
-}
+}*/
 main {
   position: relative;
   z-index: 2;
