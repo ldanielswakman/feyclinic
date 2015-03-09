@@ -35,7 +35,7 @@ function scrollActions() {
 		var po = $(this).attr('data-prlx-offset');
 		if (!$touch) {
 			prlx_offset = (po) ? po : 0 ;
-			$(this).css('background-position','center ' + ((scroll - st)/1.5 - prlx_offset) + 'px');
+			$(this).css('background-position','center ' + ((scroll - st)/1.2 - prlx_offset) + 'px');
 		}
 	});
 }

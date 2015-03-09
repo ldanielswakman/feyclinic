@@ -23,9 +23,9 @@
         // Ionicons
         echo css('http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css');
         // JQuery, SmoothScroll & Fastclick
-        echo js('http://code.jquery.com/jquery-1.11.1.min.js', $async = true);
-        echo js('http://cdnjs.cloudflare.com/ajax/libs/jquery-smooth-scroll/1.5.4/jquery.smooth-scroll.min.js', $async = true);
-        echo js('http://cdnjs.cloudflare.com/ajax/libs/fastclick/1.0.2/fastclick.min.js', $async = true);
+        echo js('http://code.jquery.com/jquery-1.11.1.min.js');
+        echo js('http://cdnjs.cloudflare.com/ajax/libs/jquery-smooth-scroll/1.5.4/jquery.smooth-scroll.min.js');
+        echo js('http://cdnjs.cloudflare.com/ajax/libs/fastclick/1.0.2/fastclick.min.js');
       // if localhost then load local assets
       else :
         echo css('assets/css/bootstrap.min.css');

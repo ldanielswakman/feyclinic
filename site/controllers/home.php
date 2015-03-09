@@ -35,7 +35,7 @@ return function($site, $pages, $page) {
 
       // build the email
       $email = email(array(
-        'to'      => 'd.swakman@gmail.com',
+        'to'      => 'info@feyclinic.nl',
         'from'    => 'Feyclinic-Contact@feyclinic.nl',
         'subject' => 'Informatieverzoek van ' . $data['name'],
         'replyTo' => $data['email'],
