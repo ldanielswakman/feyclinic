@@ -318,6 +318,7 @@ form label {
   font-size: 1.25em;
   margin-top: 0.25em;
   margin-bottom: 0.5em;
+  color: #b1967e;
 }
 form .form-control {
   display: inline-block;

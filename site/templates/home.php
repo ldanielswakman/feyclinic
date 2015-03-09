@@ -14,7 +14,7 @@
   	// contact section
   	elseif ($section->slug() == 'contact'): 
 		?>
-  	<section class="slide u-pv80" id="<?php echo $section->slug() ?>">
+  	<section class="u-pv80" id="<?php echo $section->slug() ?>">
 
 				<div class="row u-mb20">
 					<div class="col-sm-10 col-sm-offset-1 u-aligncenter">
