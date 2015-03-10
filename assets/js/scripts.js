@@ -6,8 +6,8 @@ $(document).ready(function() {
 	if ($touch) { $('body').addClass('isTouch') }
 	var touchEvent = $touch ? 'touchstart' : 'click';
 
-	// makes footer tucked under main
-	$('.footer-spacer').css('height', $('footer').outerHeight() );
+	// makes footer tucked under main, minus 2px for buffer
+	$('.footer-spacer').css('height', ($('footer').outerHeight() - 2) );
 	$('footer').addClass('tuckedUnder');
 
 
