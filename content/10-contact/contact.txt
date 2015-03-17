@@ -1,0 +1,19 @@
+Title: Contact
+
+----
+
+Text: Om klanten de volledige aandacht te geven die zij verdienen, wordt uitsluitend op afspraak gewerkt. Ook wordt om diezelfde reden tijdens de behandelingen de telefoon niet opgenomen. Spreek in dat geval uw naam en telefoonnummer in, dan wordt u zo snel mogelijk teruggebeld. 
+
+Pinnen is mogelijk en wenselijk.
+
+**FEY Clinic**
+<i class="u-floatleft u-mr10 u-mb10 ion ion-fw ion-ios-location-outline ion-15x"></i> Schoonheid- en massagepraktijk Zeeland Gezond
+Schenge 4, 4335 XS Middelburg
+<i class="u-floatleft u-mr10 u-mb10 ion ion-fw ion-ios-location-outline ion-15x"></i>Skin Care Middelburg
+Simpelhuisstraat 14, 4331 PH Middelburg
+<i class="u-floatleft u-mr10 ion ion-fw ion-ios-telephone-outline ion-15x"></i>06-21213666
+<i class="u-floatleft u-mr10 ion ion-fw ion-ios-email-outline ion-15x"></i> info@feyclinic.nl
+
+----
+
+Icon: ios-email-outline

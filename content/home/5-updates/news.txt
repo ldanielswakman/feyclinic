@@ -3,6 +3,21 @@ Title: Updates
 ----
 
 Items: - 
+  title: Op en top de zomer in!
+  message: >
+    Gedurende de gehele lente korting op een
+    behandeling van de neuslippenplooi. Van
+    325 voor 200 euro!
+  date: 2015-03-21
+- 
+  title: >
+    Behandelingen FEY Clinic bij Skin Care
+    Middelburg
+  message: >
+    Eerstvolgende consultavond donderdag 26
+    maart vanaf 19 uur. U bent welkom!
+  date: 2015-03-15
+- 
   title: Nieuwe website online
   message:
   date: 2015-03-09
