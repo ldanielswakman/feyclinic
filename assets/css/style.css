@@ -52,7 +52,7 @@ p, main ul, main ol {
   line-height: 1.8em;
   color: #828b99;
 }
-h1 + p, h2 + p, h3 + p, h4 + p, p + p, ul + p, ol + p, p + ul {
+h1 + p, h2 + p, h3 + p, h4 + p, p + p, ul + p, ol + p, p + ul, h3 + blockquote {
   margin-top: 1em;
 }
 a {
