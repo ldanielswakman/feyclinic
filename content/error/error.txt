@@ -1,5 +1,8 @@
-Title: Error
+Title: Fout
 
 ----
 
-Text: The page has not been found.
+Text: ### Oeps!
+De pagina die u probeerde te bereiken bestaat helaas niet (meer).
+
+(link: / text: <i class="ion-chevron-left u-mr10"></i> terug naar de homepage class: btn btn-tertiary btn-lg u-mt20)

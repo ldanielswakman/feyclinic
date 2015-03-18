@@ -6,10 +6,10 @@ password: >
   $2a$10$uopEsMCcceF2WDGq546BRu6ESq8qJStR9x9QWPz5YraTECO4jZ21G
 language: en
 role: admin
-token: a2c3ba46225de463ebace735f9121f96c0b86d56
+token: 7f9dcf6f09c4e51c693a0259b3899c378d6c0f06
 history:
+  - error
   - home/slide-2
   - home/slide-3
   - home/updates
   - contact
-  - botox-injectables
