@@ -151,6 +151,7 @@ figure img {
 .u-pv5 { padding-top: 5px; padding-bottom: 5px; }
 .u-pv10 { padding-top: 10px; padding-bottom: 10px; }
 .u-pv20 { padding-top: 20px; padding-bottom: 20px; }
+.u-pv30 { padding-top: 30px; padding-bottom: 30px; }
 .u-pv40 { padding-top: 40px; padding-bottom: 40px; }
 .u-pv60 { padding-top: 60px; padding-bottom: 60px; }
 .u-pv80 { padding-top: 80px; padding-bottom: 80px; }
@@ -166,6 +167,12 @@ figure img {
 .u-pa120 { padding: 120px; }
 .u-pa160 { padding: 160px; }
 
+.u-block {
+  display: block;
+}
+.u-inlineblock {
+  display: inline-block;
+}
 .u-alignleft { text-align: left; }
 .u-aligncenter { text-align: center; }
 .u-alignright { text-align: right; }
@@ -183,6 +190,13 @@ figure img {
   max-width: 1000px;
   margin-left: auto;
   margin-right: auto;
+}
+.row-full {
+  max-width: 100vw;
+}
+.row-nopadding > [class*="col-"] {
+  padding-left: 0;
+  padding-right: 0;
 }
 .slide {
   position: relative;
@@ -221,6 +235,9 @@ figure img {
 }
 .slide-modest .block:before {
   display: none;
+}
+.slide-modest .block-to-themelightest {
+  background: linear-gradient(rgba(221, 226, 237, 0), rgba(221, 226, 237, 1));
 }
 /*.block:before,
 .block:after {
@@ -423,9 +440,19 @@ nav a {
 nav #menu-secondary {
   position: absolute;
   bottom: 20px;
-  opacity: 0.5;
+  /*opacity: 0.5;
+  text-shadow: 0 0 2px #dde2ed;*/
+  /* #dde2ed; theme color lightest */
+  /* #d1d6e0; theme color lighter */
 }
-nav a.isActive {
+nav #menu-secondary a {
+  color: #aeb3bc;
+}
+nav #menu-secondary a:hover {
+  color: #505c72;
+}
+nav a.isActive,
+nav #menu-secondary a.isActive {
   color: #b1967e; /* theme color gold dark */
 }
 nav #navtoggle {
@@ -522,28 +549,36 @@ body.home #contact h3 {
 body.home #updates h4.title {
   opacity: 0.4;
 }
-body.home #updates {
-  background-color: #aeb3bc; /* theme color light */
-}
-body.home #updates h4 {
-  margin-top: 0;
-  font-family: Tellural;
-  font-weight: bold;
-}
-body.home #updates .ion {
-  margin-top: -5px;
-  /*opacity: 0.5;*/
-  color: #fff;
-}
-body.home #updates small,
-body.home #updates p {
-  margin-top: 5px;
-  color: #505c72; /* theme color */
-}
 body.default #contact:after {
   display: none;
 }
 
+
+
+/* --- updates section --- */
+#updates {
+  background-color: #dde2ed; /* theme color lightest */
+}
+#updates .update {
+  border-bottom: 1px solid #d1d6e0; /* theme color lighter */
+}
+#updates h4 {
+  margin-top: 0;
+  font-family: Tellural;
+  font-weight: bold;
+  color: #112649; /* theme color dark */
+}
+#updates .ion {
+  margin-top: -5px;
+  /*opacity: 0.5;*/
+  color: #b1967e;
+}
+#updates p {
+  color: #505c72; /* theme color */
+}
+#updates small {
+  color: #aeb3bc; /* theme color light */
+}
 
 
 

@@ -28,16 +28,39 @@
 
   	</section>
 
-
-  	<?php 
-  	// news section
-  	elseif ($section->template() == 'news'):
-  	include('news.php');
-		?>
-
   	<?php endif; ?>
 
   <?php endforeach; ?>
+
+  <section>
+
+    <div class="row row-full row-nopadding">
+      <div class="col-sm-6" style="border-bottom: 1px solid #aeb3bc;">
+        <a href="<?php echo $site->find('filosofie')->url() ?>" class="next">
+          <div class="row u-pv60 u-aligncenter">
+            <div class="col-sm-8 col-sm-offset-2">
+              lees meer over de
+              <h3><?php echo $site->find('filosofie')->title() ?></h3>
+            </div>
+          </div>
+        </a>
+
+      </div>
+      <div class="col-sm-6" style="border-left: 1px solid #aeb3bc; border-bottom: 1px solid #aeb3bc;">
+
+        <a href="<?php echo $site->find('nieuws')->url() ?>" class="next">
+          <div class="row u-pv60 u-aligncenter">
+            <div class="col-sm-8 col-sm-offset-2">
+              <?php echo 'of bekijk het laatste'; ?>
+              <h3><?php echo $site->find('nieuws')->title() ?></h3>
+            </div>
+          </div>
+        </a>
+
+      </div>
+    </div>
+
+  </section>
 
   </main>
 
