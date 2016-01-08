@@ -10,13 +10,19 @@ Description: FEY Clinic voor medisch cosmetische behandelingen met een natuurlij
 
 ----
 
-Keywords: feyclinic,fey clinic,forever young,forever young clinic,medisch,cosmetisch,behandeling,uiterlijk,schoonheid,arts,botox,injectables,middelburg,rimpels
+Keywords: feyclinic,fey clinic,forever young,forever young clinic,medisch,cosmetisch,behandeling,uiterlijk,schoonheid,arts,botox,injectables,middelburg,rimpels,goes,arnemuiden,vlissingen,oost-souburg,heinkenszand,serooskerke,oostkapelle,domburg
 
 ----
 
 Footerleft: **FEY Clinic**
-Schenge 4
-4335 XS Middelburg
+
+Schoonheidspraktijk Zeeland Gezond            
+Schenge 4                                                                     
+4335 XS Middelburg    
+
+Skin Care Middelburg      
+Simpelhuisstraat 14
+4331 PH Middelburg
 
 ----
 

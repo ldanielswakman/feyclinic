@@ -6,7 +6,7 @@ password: >
   $2a$10$uopEsMCcceF2WDGq546BRu6ESq8qJStR9x9QWPz5YraTECO4jZ21G
 language: en
 role: admin
-token: e0c0209d2761d9ac7d590a520c515c9388f21a89
+token: 816ff3b5a3d356d8b158ec30ec8817f53f6f3f3a
 history:
   - nieuws
   - injectables-fillers

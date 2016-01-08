@@ -1,3 +1,5 @@
 Title: Home
 
 ----
+
+Secondarymenu: contact, info, prijzen
