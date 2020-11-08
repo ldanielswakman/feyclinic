@@ -5,4 +5,4 @@ Title: Fout
 Text: ### Oeps!
 De pagina die u probeerde te bereiken bestaat helaas niet (meer).
 
-(link: / text: <i class="ion-chevron-left u-mr10"></i> terug naar de homepage class: btn btn-tertiary btn-lg u-mt20)
+(link: / text: Terug naar de homepage class: btn btn-tertiary btn-lg u-mt20)

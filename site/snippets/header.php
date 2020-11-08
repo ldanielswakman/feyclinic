@@ -9,17 +9,17 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
     <meta name="description" content="<?php echo $site->description()->html() ?>">
-    <meta name="keywords" content="<?php echo $site->keywords()->html() ?>">
 
     <?php
       // checks if not on localhost, then serves assets from CDN
       $local = strpos($_SERVER['SERVER_NAME'], 'localhost');
+      $local = false;
       if($local === false) :
         // Bootstrap
         echo css('http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css');
         // Google Webfonts
-        echo css('http://fonts.googleapis.com/css?family=Quando');
-        echo css('http://fonts.googleapis.com/css?family=Merriweather:400,400italic,700italic,700,300,300italic');
+        echo css('https://fonts.googleapis.com/css2?family=Quando&display=swap');
+        echo css('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
         // Ionicons
         echo css('http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css');
         // JQuery, SmoothScroll & Fastclick

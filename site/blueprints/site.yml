@@ -1,0 +1,29 @@
+title: Site
+
+pages: default
+
+columns:
+  left:
+    width: 2/3
+    sections:
+      pages:
+        type: pages
+    
+  right:
+    width: 1/3
+    sections:
+      content:
+        type: fields
+        fields:
+          footerleft:
+            label: Footer info (links)
+            type:  textarea
+          footerright:
+            label: Footer info (rechts)
+            type:  textarea
+          title:
+            label: Title
+            type:  text
+          description:
+            label: Site description
+            type:  textarea

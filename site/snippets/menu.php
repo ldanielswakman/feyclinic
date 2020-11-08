@@ -16,7 +16,7 @@
       </a>
     </li>
     <?php 
-    foreach($pages->visible() as $p): 
+    foreach($pages->listed() as $p): 
     if ($p->slug() == 'separator') :
     ?>
     </ul>

@@ -1,0 +1,18 @@
+title: Page
+
+pages: false
+
+files: true
+
+fields:
+
+  text:
+    label: Text
+    type:  textarea
+
+  icon:
+    label: Icon
+    help: >
+      <i>(Kies er 1 uit <a href="http://ionicons.com" target="_blank">ionicons.com</a>)</i>
+    icon: bookmark
+    type:  text

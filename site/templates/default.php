@@ -5,7 +5,7 @@
 		<?php 
 		// get background image of first slide of homepage
 		$intro_bg = '';
-		foreach($pages->find('home')->children()->visible()->first()->images() as $image): 
+		foreach($pages->find('home')->children()->listed()->first()->images() as $image): 
 			$intro_bg = $image->url(); 
 		endforeach; 
 		?>
@@ -41,7 +41,7 @@
   	// contact page
   	if ($page->slug() == 'contact'): 
 		?>
-		<section class="u-pv40" id="contact">
+		<section class="u-pv40" id="contact-form">
 
 			<?php include('contact-form.php'); ?>
 
@@ -49,9 +49,9 @@
 		<?php endif ?>
 
 		<?php
-		if ($page->nextVisible()) :
+		if ($page->nextListed()) :
 		// do not link to menu separator
-		$nextpage = ($page->nextVisible()->slug() != 'separator') ? $page->nextVisible() : $page->nextVisible()->nextVisible(); 
+		$nextpage = ($page->nextListed()->slug() != 'separator') ? $page->nextListed() : $page->nextListed()->nextListed(); 
 		?>
 
   	<a href="<?php echo $nextpage->url() ?>" class="next">

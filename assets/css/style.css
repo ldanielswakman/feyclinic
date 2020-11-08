@@ -47,7 +47,7 @@ h3 {
   line-height: 1.5em;
 }
 p, main ul, main ol {
-  font-family: Merriweather;
+  font-family: 'Merriweather';
   font-size: 1.25em;
   line-height: 1.8em;
   color: #828b99;
@@ -540,16 +540,16 @@ footer .colophon:focus {
   position: relative;
   z-index: 3;
 }
-#contact {
+#contact-form {
   background-color: #dbb78c; /* theme color gold */
 }
-body.home #contact h3 {
+body.home #contact-form h3 {
   color: #fff;
 }
 body.home #updates h4.title {
   opacity: 0.4;
 }
-body.default #contact:after {
+body.default #contact-form:after {
   display: none;
 }
 
