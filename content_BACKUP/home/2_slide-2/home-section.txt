@@ -1,0 +1,13 @@
+Title: slide 2
+
+----
+
+Bgimage: background-2.jpg
+
+----
+
+Text: FEY Clinic staat voor medisch cosmetische behandelingen met een natuurlijk resultaat...
+
+----
+
+Link: 

@@ -1,0 +1,21 @@
+Title: Afspraak maken en nieuws
+
+----
+
+Items: - 
+  title: >
+    Data behandelingen FEY Clinic bij Skin
+    Care Middelburg
+  message: |
+    De eerstvolgende consultdagen zijn  maandagavond 21 september, donderdagavond 24 september, vrijdagochtend 2 oktober,  maandagavond 5 oktober, donderdagavond 8 oktober, vrijdagochtend 9 oktober, maandagavond 12 oktober, donderdagavond 29 oktober, donderdagavond 5 november, vrijdagochtend 6 november 2020.
+    Via de website, info@feyclinic.nl of telefonisch/app 06-21213666 kunt u een afspraak maken.
+    U bent van harte welkom!
+  date: 2020-09-17
+- 
+  title: >
+    Informatieavond anti-aging, injectables
+    en Botox
+  message: |
+    Heeft u interesse voor een informatie-avond. Er worden diverse avonden georganiseerd.
+    Laat het even weten!
+  date: 2014-12-12

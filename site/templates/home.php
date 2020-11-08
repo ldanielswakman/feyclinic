@@ -48,11 +48,11 @@
       </div>
       <div class="col-sm-6" style="border-left: 1px solid #aeb3bc; border-bottom: 1px solid #aeb3bc;">
 
-        <a href="<?= $site->find('nieuws')->url() ?>" class="next">
+        <a href="<?= $site->pages()->template('news')->first()->url() ?>" class="next">
           <div class="row u-pv60 u-aligncenter">
             <div class="col-sm-8 col-sm-offset-2">
               <?= 'of bekijk het laatste'; ?>
-              <h3><?= $site->find('nieuws')->title() ?></h3>
+              <h3><?= $site->pages()->template('news')->first()->title() ?></h3>
             </div>
           </div>
         </a>

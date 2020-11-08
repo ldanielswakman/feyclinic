@@ -1,0 +1,15 @@
+Title: Updates
+
+----
+
+Items: - 
+  title: >
+    Liquid facelift, een perfect herstelplan
+    bij volumeverlies!
+  message: >
+    Dokter Elsbeth Peek heeft bij de fameuze
+    Dokter Frodo Gaymans in Amsterdam een
+    workshop gevolgd over de liquid facelift
+    met fantastische resultaten. Laat u
+    verrassen!
+  date: 2015-07-28

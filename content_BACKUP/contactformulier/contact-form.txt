@@ -1,0 +1,24 @@
+Title: Contactformulier
+
+----
+
+Items: - 
+  label: Hallo, ik wil graag meer weten over...
+  placeholder: Uw bericht of verzoek tot afspraak
+  type: textarea
+- 
+  label: Mijn naam is....
+  placeholder: Uw naam
+  type: text
+- 
+  label: U kunt mij bereiken via ...
+  placeholder: Uw e-mailadres
+  type: email
+
+----
+
+Message-success: Bedankt voor uw bericht! We nemen spoedig contact met u op.
+
+----
+
+Message-alert: Het formulier kon niet verzonden worden.
