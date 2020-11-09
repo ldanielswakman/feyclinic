@@ -20,8 +20,7 @@ return function ($kirby) {
 
   if ($kirby->request()->is('POST')) {
       $form->emailAction([
-          'to' => 'hello@ldaniel.eu',
-          // 'to' => 'info@feyclinic.nl',
+          'to' => 'info@feyclinic.nl',
           'from' => 'feyclinic-contact@feyclinic.nl',
       ])
       ->logAction([
