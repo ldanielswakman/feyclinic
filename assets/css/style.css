@@ -330,6 +330,10 @@ main {
 textarea {
   resize: none;
 }
+.uniform__potty {
+  position: absolute;
+  left: -9999px;
+}
 form label {
   font-family: Tellural;
   font-size: 1.25em;
